@@ -13,8 +13,8 @@ This project helped me practice building a responsive card layout and working wi
 
 ## 🔗 Links
 
-- **Live Site:** https://your-live-site-url.com  
-- **Repository:** https://github.com/your-username/blog-preview-card
+- **Live Site:** https://blog-preview-card-itszhrst.netlify.app/
+- **Repository:** https://github.com/Itszhrst/Blog-preview-card
 
 ---
 
