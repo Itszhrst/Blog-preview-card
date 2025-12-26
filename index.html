@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <link href="./style.css" rel="stylesheet" />
+
+  <link href="https://unpkg.com/tailwindcss@1.9.6/dist/tailwind.min.css" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Blog preview card</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            figtree: ['Figtree', 'sans-serif'],
+          },
+          boxShadow: {
+            fm: '8px 8px 0px #000',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div class="font-figtree min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white max-w-sm w-full rounded-2xl shadow-[12px_12px_0px_#000]">
+      <div class="p-6 flex items-center justify-center shadow-current">
+        <img class="rounded-2xl" src="./assets/images/illustration-article.svg" alt="">
+      </div>
+
+      <div class="px-6 pb-6">
+        <span class="learningtxt inline-block text-black-950 text-x font-bold px-3 py-1 rounded-md mb-3">
+        Learning
+      </span>
+        <p class="text-sm text-gray-600 mb-3">
+        Published 21 Dec 2023
+      </p>
+
+      <h2 class="text-2xl font-extrabold mb-3 hover:text-[#f4d04e] cursor-pointer transition">
+        HTML & CSS foundations
+      </h2>
+
+      <p class="text-gray-500 mb-6 leading-relaxed">
+        These languages are the backbone of every website, defining structure,
+        content, and presentation.
+      </p>
+
+      <div class="flex items-center gap-3">
+        <img
+          src="./assets/images/image-avatar.webp"
+          alt="author"
+          class="w-10 h-10 rounded-full"
+        />
+        <span class="text-sm font-extrabold">Greg Hooper</span>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
